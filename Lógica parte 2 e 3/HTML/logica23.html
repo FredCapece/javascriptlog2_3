@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProjetoWeb</title>
+    <link rel="stylesheet" href="../CSS/stylelog23.css">
+</head>
+
+<body>
+    <div class="header">
+        <br>
+        <h1>Lógica: Parte 2 e 3</h1>
+    </div>
+
+    <br> <br>
+
+    <div class="content">
+
+        <div class="exercicio1">
+            <h2>Exercicio 1:</h2>
+            Calcule a média aritmética das 3 notas de um aluno e mostre, além do valor da média, uma mensagem de "Aprovado", caso a média seja igual ou superior a 6, ou a mensagem "reprovado", caso contrário.
+            <br> <br>
+            <input type="text" name="nota1" id="nota1" placeholder="Digite a 1ª nota">
+            <input type="text" name="nota2" id="nota2" placeholder="Digite a 2ª nota">
+            <input type="text" name="nota3" id="nota3" placeholder="Digite a 3ª nota">
+            <input type="button" class="button" value="Enter" onclick="exercicio1();">
+        </div>
+        <div id="res1" class="resposta"></div>
+        <br>
+
+        <div class="exercicio2">
+            <h2>Exercicio 2:</h2>
+            Elabore um algoritmo que dada a idade de um nadador classifica-o em uma das seguintes categorias:
+            <br>
+            Infantil A = 5 - 7 anos <br>
+            Infantil B = 8-10 anos <br>
+            Juvenil A = 11-13 anos <br>
+            Juvenil B = 14-17 anos <br>
+            Adulto = maiores de 18 anos
+            <br> <br>
+            <input type="text" name="idade" id="idade" placeholder="Digite a idade do nadador" size="23">
+            <input type="button" class="button" value="Enter" onclick="exercicio2();">
+        </div>
+        <div id="res2" class="resposta"></div>
+        <br>
+
+        <div class="exercicio3">
+            <h2>Exercicio 3:</h2>
+            Elaborar um algoritmo que lê 3 valores a,b,c e os escreve. A seguir, encontre o maior dos 3 valores e o escreva com a mensagem : 
+            <br>
+            "É o maior ".
+            <br> <br>
+            <input type="text" name="valor1" id="valor1" placeholder="Digite o 1º valor">
+            <input type="text" name="valor2" id="valor2" placeholder="Digite o 2º valor">
+            <input type="text" name="valor3" id="valor3" placeholder="Digite o 3º valor">
+            <input type="button" class="button" value="Enter" onclick="exercicio3();">
+        </div>
+        <div id="res3a" class="resposta"></div>
+        <div id="res3b" class="resposta"></div>
+        <br>
+
+        <div class="exercicio4">
+            <h2>Exercicio 4:</h2>
+            Faça um algoritmo que leia um nº inteiro e mostre uma mensagem indicando se este número é par ou ímpar, e se é positivo ou negativo.
+            <br> <br>
+            <input type="text" name="numero" id="numero" placeholder="Digite um número inteiro" size="23">
+            <input type="button" class="button" value="Enter" onclick="exercicio4();">
+        </div>
+        <div id="res4" class="resposta"></div>
+        <br>
+
+        <div class="exercicio5">
+            <h2>Exercicio 5:</h2>
+            Crie um programa que imprima a soma de todos os números pares 0 até 100; Use a estrutura while.
+            <br> <br>
+            <input type="button" class="button" value="Enter" onclick="exercicio5();">
+        </div>
+        <div id="res5" class="resposta"></div>
+        <br>
+
+        <div class="exercicio6">
+            <h2>Exercicio 6:</h2>
+            Gerar a sequência de fibonacci dos 100 primeiros termos usando while: 
+            <br>
+            0,1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597
+            <br> <br>
+            <input type="button" class="button" value="Enter" onclick="exercicio6();">
+        </div>
+        <div id="res6" class="resposta"></div>
+        <br>
+
+        <div class="exercicio7">
+            <h2>Exercicio 7:</h2>
+            Escreva um programa que calcule o fatorial de N iterativamente. 
+            <br> <br>
+            <input type="text" name="calculo" id="calculo" placeholder="Digite o cálculo">
+            <input type="button" class="button" value="Enter" onclick="exercicio7();">
+        </div>
+        <div id="res7" class="resposta"></div>
+        <br>
+
+        <div class="exercicio8">
+            <h2>Exercicio 8:</h2>
+            Responda as questões Q5 e Q6 usando a estrutura do/while!
+            <br> <br>
+            Questão 5:
+            <input type="button" class="button" value="Enter" onclick="exercicio8a();">
+            <br> <br>
+            Questão 6:
+            <input type="button" class="button" value="Enter" onclick="exercicio8b();">
+        </div>
+        <div id="res8a" class="resposta"></div>
+        <div id="res8b" class="resposta"></div>
+        <br>
+
+        <div class="exercicio9">
+            <h2>Exercicio 9:</h2>
+            Faça um programa que exiba no console todos os números primos de 1 até 150. Os números primos são aqueles que só são divisíveis por 1 e por eles mesmos (exemplo: 1, 3, 5, 7, ...). Use o comando for;
+            <br> <br>
+            <input type="button" class="button" value="Enter" onclick="exercicio9();">
+        </div>
+        <div id="res9" class="resposta"></div>
+        <br>
+
+        <div class="exercicio10">
+            <h2>Exercicio 10:</h2>
+            Usando o comando for, desenvolva um programa javascript para calcular o valor aproximado da série:
+            <br>
+            1/2 + 1/4 + 1/6 + 1/8 + ... + 1/2*i +...
+            <br> <br>
+            <input type="text" name="seriecal" id="seriecal" placeholder="Digite um valor para i">
+            <input type="button" class="button" value="Enter" onclick="exercicio10();">
+        </div>
+        <div id="res10a" class="resposta"></div>
+        <div id="res10b" class="resposta"></div>
+        <br>
+
+        <div class="exercicio11">
+            <h2>Exercicio 11:</h2>
+            Escreva um algoritmo que lê 3 números e imprime o maior dos 3.
+            <br> <br>
+            <input type="text" name="numero1" id="numero1" placeholder="Digite um número">
+            <input type="text" name="numero2" id="numero2" placeholder="Digite um número">
+            <input type="text" name="numero3" id="numero3" placeholder="Digite um número">
+            <input type="button" class="button" value="Enter" onclick="exercicio11();">
+        </div>
+        <div id="res11" class="resposta"></div>
+        <br>
+
+        <div class="exercicio12">
+            <h2>Exercicio 12:</h2>
+            Escreva um algoritmo que imprima as tabelas de multiplicação de 1 até 10.
+            <br> <br>
+            
+            <!-- Tabuada para qualquer numero -->
+            <!--<input type="text" name="tabu" id="tabu" placeholder="Digite um número">-->
+
+            <input type="button" class="button" value="Enter" onclick="exercicio12();">
+        </div>
+        <div id="res12" class="resposta"></div>
+        <br>
+
+        <div class="exercicio13">
+            <h2>Exercicio 13:</h2>
+            Escreva um algoritmo que lê um valor n inteiro e positivo e que calcula a seguinte soma:
+            <br>
+            S := 1 + 1/2 + 1/3 + 1/4 + ... + 1/n
+            <br> <br>
+            <input type="text" name="valorint" id="valorint" placeholder="Digite um valor inteiro e positivo" size="30">
+            <input type="button" class="button" value="Enter" onclick="exercicio13();">
+        </div>
+        <div id="res13a" class="resposta"></div>
+        <div id="res13b" class="resposta"></div>
+        <br>
+
+        <div class="exercicio14">
+            <h2>Exercicio 14:</h2>
+            Escreva um programa que calcule o valor do número irracional Pi, a partir da seguinte série (formula Gregory-Leibniz):
+            <br>
+            S = 4 - 4/3 + 4/5 - 4/7 + 4/9....
+            <br>
+            O cálculo deverá envolver pelo menos 1000 termos.
+            <br> <br>
+            <input type="button" class="button" value="Enter" onclick="exercicio14();">
+        </div>
+        <div id="res14" class="resposta"></div>
+        <br>
+
+        <div class="exercicio15">
+            <h2>Exercicio 15:</h2>
+            Escreva um programa que, a partir de um nome informado pelo usuário, exiba suas iniciais. As iniciais são formadas pela primeira letra de cada nome, sendo que todas deverão aparecer em maiúsculas na saída do programa. Note que os conectores e, do, da, dos, das, de, di, du não são considerados nomes e, portanto, não devem ser considerados para a obtenção das iniciais. As iniciais devem ser impressas em maiúsculas, ainda que o nome seja entrado todo em minúsculas.
+            <br>
+            ▸ Exemplo: 
+            <br>
+            ▹ Maria das Graças Pimenta => MGP
+            <br> <br>
+            <input type="text" name="nome" id="nome" placeholder="Digite um nome">
+            <input type="button" class="button" value="Enter" onclick="exercicio15();">
+        </div>
+        <div id="res15" class="resposta"></div>
+        <br>
+
+        <div class="exercicio16">
+            <h2>Exercicio 16:</h2>
+            Nome ao contrário em maiúsculas. Faça um programa que permita ao usuário digitar o seu nome e em seguida mostre o nome do usuário de trás para frente utilizando somente letras maiúsculas. 
+            <br>
+            Dica: lembre−se que ao informar o nome o usuário pode digitar letras maiúsculas ou minúsculas.
+            <br> <br>
+            <input type="text" name="nomecont" id="nomecont" placeholder="Digite um nome">
+            <input type="button" class="button" value="Enter" onclick="exercicio16();">
+        </div>
+        <div id="res16" class="resposta"></div>
+        <br>
+
+        <div class="exercicio17">
+            <h2>Exercicio 17:</h2>
+            Data por extenso. Faça um programa que solicite a data de nascimento (dd/mm/aaaa) do usuário e imprima a data com o nome do mês por extenso.
+            <br>
+            ▸ Data de Nascimento: 29/10/1973
+            <br>
+            ▹ Você nasceu em 29 de Outubro de 1973.
+            <br> <br>
+            Data de Nascimento: <input type="date" name="data" id="data">
+            <input type="button" class="button" value="Enter" onclick="exercicio17();">
+        </div>
+        <div id="res17" class="resposta"></div>
+        <br>
+
+        <div class="exercicio18">
+            <h2>Exercicio 18:</h2>
+            Conta espaços e vogais. Dado uma string com uma frase informada pelo usuário (incluindo espaços em branco), conte:
+            <br>
+            a. quantos espaços em branco existem na frase.
+            <br>
+            b. quantas vezes aparecem as vogais a, e, i, o, u.
+            <br> <br>
+            <input type="text" name="string" id="string" placeholder="Digite uma frase">
+            <input type="button" class="button" value="Enter" onclick="exercicio18();">
+        </div>
+        <div id="res18" class="resposta"></div>
+        <br>
+
+        <div class="exercicio19">
+            <h2>Exercicio 19:</h2>
+            Palíndromo. Um palíndromo é uma sequência de caracteres cuja leitura é idêntica se feita da direita para esquerda ou vice−versa. 
+            <br>
+            Por exemplo: OSSO e OVO são palíndromos. Em textos mais complexos os espaços e pontuação são ignorados. A frase SUBI NO ONIBUS é o exemplo de uma frase palíndroma onde os espaços foram ignorados.
+            <br>
+            Faça um programa que leia uma sequência de caracteres, mostre−a e diga se é um palíndromo ou não.
+            <br> <br>
+            <input type="text" name="palindromo" id="palindromo" placeholder="Digite um palíndromo">
+            <input type="button" class="button" value="Enter" onclick="exercicio19();">
+        </div>
+        <div id="res19" class="resposta"></div>
+        <br>
+
+        <div class="exercicio20">
+            <h2>Exercicio 20:</h2>
+            O código de César é uma das mais simples e conhecidas técnicas de criptografia. É um tipo de substituição na qual cada letra do texto é substituída por outra, que se apresenta no alfabeto abaixo dela um numero fixo de vezes. 
+            <br>
+            Por exemplo, com uma troca de três posições, ‘A’ seria substituído por ‘D’, ‘B’ se tornaria ‘E’, e assim por diante. Implemente um programa que faça uso desse Código de César (3 posições), entre com uma string e retorne a string codificada.  
+            <br>
+            Exemplo: a ligeira raposa marrom saltou sobre o cachorro cansado Nova string: D OLJHLUD UDSRVD PDUURP VDOWRX VREUH R FDFKRUUR FDQVDGR
+            <br> <br>
+            <input type="text" name="criptografia" id="criptografia" placeholder="Digite uma string">
+            <input type="button" class="button" value="Enter" onclick="exercicio20();">
+            <br> <br>
+            <b>String é uma sequência de caracteres que representam uma palavra.</b>
+        </div>
+        <div id="res20" class="resposta"></div>
+        <br>
+
+        <div class="exercicio21">
+            <h2>Exercicio 21:</h2>
+            Crie uma função que compara duas variáveis do tipo string e retornar true se as duas strings forem iguais.
+            <br> <br>
+            <input type="text" name="variavel1" id="variavel1" placeholder="Digite uma string">
+            <input type="text" name="variavel2" id="variavel2" placeholder="Digite uma string">
+            <input type="button" class="button" value="Enter" onclick="exercicio21();">
+        </div>
+        <div id="res21" class="resposta"></div>
+        <br>
+
+        <div class="exercicio22">
+            <h2>Exercicio 22:</h2>
+            Crie uma função que imprime um valor inteiro em binário.
+            <br> <br>
+            <input type="text" name="decimal" id="decimal" placeholder="Digite um valor inteiro" size="19">
+            <input type="button" class="button" value="Enter" onclick="exercicio22();">
+        </div>
+        <div id="res22" class="resposta"></div>
+        <br>
+
+        <div class="exercicio23">
+            <h2>Exercicio 23:</h2>
+            Crie uma função que receba uma string binária e retorne um valor em decimal.
+            <br> <br>
+            <input type="text" name="binario" id="binario" placeholder="Digite uma string binária" size="22">
+            <input type="button" class="button" value="Enter" onclick="exercicio23();">
+        </div>
+        <div id="res23" class="resposta"></div>
+        <br>
+
+        <div class="exercicio24">
+            <h2>Exercicio 24:</h2>
+            Escreva uma função que imprima um mês de acordo com o número digitado pelo usuário (1 - Janeiro, 12 - Dezembro).
+            <br> <br>
+            <input type="text" name="mes" id="mes" placeholder="Digite o número do mês" size="22">
+            <input type="button" class="button" value="Enter" onclick="exercicio24();">
+        </div>
+        <div id="res24" class="resposta"></div>
+        <br>
+
+        <div class="exercicio25">
+            <h2>Exercicio 25:</h2>
+            Escreva uma função que receba dois valores inteiros e um identificador de uma operação (soma == 0, subtração == 1, divisão == 2 e multiplicação == 3). O seu procedimento deve executar a operação matemática desejada e imprimir o resultado na tela.
+            <br> <br>
+            <input type="text" name="iden1" id="iden1" placeholder="Digite um valor inteiro">
+            <input type="text" name="iden2" id="iden2" placeholder="Digite um identificador de uma operação" size="37">
+            <input type="text" name="iden3" id="iden3" placeholder="Digite um valor inteiro">
+            <input type="button" class="button" value="Enter" onclick="exercicio25();">
+        </div>
+        <div id="res25" class="resposta"></div>
+        <br>
+
+        <div class="exercicio26">
+            <h2>Exercicio 26:</h2>
+            Escreva uma função que imprima o gênero de uma pessoa utilizando um dos caracteres (M, F, X) como entrada.
+            <br> <br>
+            <input type="text" name="genero" id="genero" placeholder="Digite M, F ou X">
+            <input type="button" class="button" value="Enter" onclick="exercicio26();">
+        </div>
+        <div id="res26" class="resposta"></div>
+        <br>
+
+
+    </div>
+    
+</body>
+
+<script src="../JavaScript/scriptlog23.js"></script>
+
+</html>
